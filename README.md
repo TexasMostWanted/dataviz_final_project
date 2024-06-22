@@ -1,8 +1,8 @@
 # Data Visualization and Reproducible Research
 
-> Firstname Lastname. 
+> Victor Miranda
 
-Learn more about me in my [GitHub profile page](https://github.com/reiminer). 
+Learn more about me in my [GitHub profile page](https://github.com/TexasMostWanted). 
 
 
 The following is a sample of products created during the _"Data Visualization and Reproducible Research"_ course.
@@ -10,22 +10,23 @@ The following is a sample of products created during the _"Data Visualization an
 
 ## Project 01
 
-In the `project_01/` folder you can find... _[add short description of your revised project here]_
+In the `project_01/` folder you can find... _[Actual data I am currently working with. I was able to create visualizations of how our commands budget is spent (number of transactions and dollar amount, both by transaction type)]_
 
 **Sample data visualization:** 
 
 _[include your favorite visualization from this project here]_
-<img src="https://github.com/reisanar/figs/raw/master/echarts.png" width="70%" height="70%">
+<img src="https://github.com/dataviz_final_project/blob/main/figures/p_type_count.png" width="70%" height="70%">
+<img src="https://github.com/dataviz_final_project/blob/main/figures/p_type_sum.png" width="70%" height="70%">
 
 
 ## Project 02
 
-In this project, I explored ... _[short description of your revised project goes here]_ Find the code and report in the `project_02/` folder.
+In this project, I explored ... _[a choropleth which contained the counties of Texas and shows the growth of ajusted growth income]_ Find the code and report in the `project_02/` folder.
 
 **Sample data visualization:** 
 
 _[include your favorite visualization from this project here]_
-<img src="https://raw.githubusercontent.com/reisanar/dataviz_final_project/main/figures/fl_higher_ed.png" width="80%" height="80%">
+<img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/Texas_AGI_growth.gif" width="80%" height="80%">
 
 (you can place your figures in the `figures/` folder and use the `![](path_to_picture)` option to add the pictures here)
 
