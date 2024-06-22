@@ -1,0 +1,146 @@
+"","Dept","obl_type","sum_obl"
+"1","Dept_A","AXOL",89518.72
+"2","Dept_A","Cost Distro",-105709.69
+"3","Dept_A","DCC",167749.08
+"4","Dept_A","GPC",0
+"5","Dept_A","GSA",0
+"6","Dept_A","G_Invoice",22887
+"7","Dept_A","MORD",586920
+"8","Dept_A","Pending",0
+"9","Dept_A","Reim",186056.26
+"10","Dept_A","Travel",377.5
+"11","Dept_AA","Cost Distro",113921.48
+"12","Dept_B","AXOL",10376.59
+"13","Dept_B","Cost Distro",-259526.75
+"14","Dept_B","DCC",2004022.64
+"15","Dept_B","GPC",0
+"16","Dept_B","Pending",0
+"17","Dept_B","Reim",580430.2
+"18","Dept_B","Travel",5257.86
+"19","Dept_C","AXOL",23200.8
+"20","Dept_C","Cost Distro",-425470
+"21","Dept_C","DCC",381302.69
+"22","Dept_C","GPC",0
+"23","Dept_C","Pending",0
+"24","Dept_C","Reim",1244221.54
+"25","Dept_C","Travel",964.16
+"26","Dept_D","AXOL",129548.1
+"27","Dept_D","Cost Distro",-718196.89
+"28","Dept_D","DCC",7609384.81
+"29","Dept_D","GPC",0
+"30","Dept_D","MORD",41836.05
+"31","Dept_D","Pending",0
+"32","Dept_D","Reim",6340292.39
+"33","Dept_D","Travel",41246.18
+"34","Dept_E","AXOL",33993.92
+"35","Dept_E","Cost Distro",-821071.33
+"36","Dept_E","DCC",4457.39
+"37","Dept_E","GPC",0
+"38","Dept_E","MORD",1868692.95
+"39","Dept_E","Pending",0
+"40","Dept_E","Reim",75000
+"41","Dept_E","Travel",550937.38
+"42","Dept_F","AXOL",31595.19
+"43","Dept_F","GPC",0
+"44","Dept_F","MORD",400
+"45","Dept_F","Travel",17977.79
+"46","Dept_G","AXOL",13901.96
+"47","Dept_G","Cost Distro",-415426.62
+"48","Dept_G","GPC",0
+"49","Dept_G","MORD",181385.03
+"50","Dept_G","Pending",0
+"51","Dept_G","Reim",27970.75
+"52","Dept_G","Travel",148362.09
+"53","Dept_H","AXOL",31409.78
+"54","Dept_H","Cost Distro",-100960.48
+"55","Dept_H","GPC",0
+"56","Dept_H","G_Invoice",6700
+"57","Dept_H","MORD",105621.53
+"58","Dept_H","Pending",0
+"59","Dept_H","Reim",32860
+"60","Dept_H","Travel",295678.942
+"61","Dept_I","AXOL",1949
+"62","Dept_I","MORD",8686.74
+"63","Dept_I","Pending",0
+"64","Dept_I","Reim",21200
+"65","Dept_I","Travel",124716.39
+"66","Dept_J","AXOL",14634.33
+"67","Dept_J","GPC",0
+"68","Dept_J","MORD",53521.07
+"69","Dept_J","Pending",0
+"70","Dept_K","AXOL",4239.71
+"71","Dept_K","Cost Distro",-39489.15
+"72","Dept_K","DCC",6733.34
+"73","Dept_K","GPC",0
+"74","Dept_K","MORD",15662
+"75","Dept_K","Reim",63612.66
+"76","Dept_K","Travel",711116.01
+"77","Dept_L","AXOL",17720.57
+"78","Dept_L","Cost Distro",-234254.92
+"79","Dept_L","DCC",198545.069537
+"80","Dept_L","GPC",0
+"81","Dept_L","Pending",0
+"82","Dept_L","Reim",2217660.78
+"83","Dept_L","Travel",3209.9
+"84","Dept_M","AXOL",37683.92
+"85","Dept_M","Cost Distro",-1e+05
+"86","Dept_M","DCC",127617.14
+"87","Dept_M","GPC",0
+"88","Dept_M","Reim",1986395.12
+"89","Dept_M","Travel",1525.43
+"90","Dept_N","AXOL",4179
+"91","Dept_N","Cost Distro",-7619.99
+"92","Dept_N","DCC",181413.9
+"93","Dept_N","MORD",5340
+"94","Dept_N","Pending",0
+"95","Dept_N","Travel",30245.66
+"96","Dept_O","AXOL",9219.37
+"97","Dept_O","Pending",0
+"98","Dept_O","Travel",53437.6
+"99","Dept_P","AXOL",2359
+"100","Dept_P","Cost Distro",-75442
+"101","Dept_P","GPC",0
+"102","Dept_P","MORD",386418.6
+"103","Dept_P","Pending",0
+"104","Dept_P","Reim",32000
+"105","Dept_P","Travel",220586.53
+"106","Dept_Q","AXOL",2094.68
+"107","Dept_Q","Cost Distro",-4762
+"108","Dept_Q","MORD",3516
+"109","Dept_Q","Reim",15426.76
+"110","Dept_Q","Travel",56114.68
+"111","Dept_R","AXOL",9817
+"112","Dept_R","Cost Distro",-180000
+"113","Dept_R","DCC",1514269.38
+"114","Dept_R","GPC",0
+"115","Dept_R","MORD",670.9
+"116","Dept_R","Pending",-2871.78
+"117","Dept_R","Reim",2467350.24
+"118","Dept_R","Travel",13120.51
+"119","Dept_S","AXOL",3403.5
+"120","Dept_S","Cost Distro",-576000
+"121","Dept_S","DCC",2033969.08
+"122","Dept_S","GPC",0
+"123","Dept_S","MORD",797909.3
+"124","Dept_S","Pending",0
+"125","Dept_S","Travel",485670.52
+"126","Dept_T","Cost Distro",-432197.27
+"127","Dept_T","DCC",79810.9
+"128","Dept_T","GPC",0
+"129","Dept_T","MORD",20000
+"130","Dept_T","Pending",0
+"131","Dept_T","Travel",308555.433
+"132","Dept_U","DCC",1233001.98
+"133","Dept_U","Pending",0
+"134","Dept_U","Reim",601.99
+"135","Dept_U","Travel",88.5
+"136","Dept_V","GPC",0
+"137","Dept_V","MORD",42148.37
+"138","Dept_V","Reim",16000
+"139","Dept_V","Travel",969.33
+"140","Dept_W","Pending",0
+"141","Dept_W","Travel",412.24
+"142","Dept_X","Reim",30375.98
+"143","Dept_Y","Pending",0
+"144","Dept_Y","Reim",5866007.93
+"145","Dept_Z","Cost Distro",-3793294.56
