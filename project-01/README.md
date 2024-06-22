@@ -102,3 +102,6 @@ p_type_sum
 ggsave("p_type_sum.png")
 
 ```
+<img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/p_type_count.png" width="70%" height="70%">
+
+<img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/p_type_sum.png" width="70%" height="70%">
