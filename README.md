@@ -20,15 +20,11 @@ In the `project_01/` folder you can find actual data I am currently working with
 
 ## Project 02
 
-In this project, I explored ... _[a choropleth which contained the counties of Texas and shows the growth of ajusted growth income]_ Find the code and report in the `project_02/` folder.
+In this project, I created a choropleth from a tiger/line shapefile and individual income tax records from 2011, 2016, and 2021. I extracted Texas only data and created three visualizations which (combined as a .gif below) to show the change in adjusted income growth, for each county over the three year period. Find the code and report in the `project_02/` folder.
 
 **Sample data visualization:** 
 
-_[include your favorite visualization from this project here]_
 <img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/Texas_AGI_growth.gif" width="80%" height="80%">
-
-(you can place your figures in the `figures/` folder and use the `![](path_to_picture)` option to add the pictures here)
-
 
 ## Project 03
 
