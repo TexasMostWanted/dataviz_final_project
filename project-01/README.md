@@ -1,14 +1,104 @@
 ---
-title: "Mini-Project 01"
-output: 
-  html_document:
-    keep_md: true
-    toc: true
-    toc_float: true
+title: "Miranda Final Project"
+subtitle: "Mini-project 1 Updates"
+output: html_notebook
 ---
 
-# Data Visualization Project 01
+# Cleaned up code for Mini-project 1
 
-_revised version of mini-project 01 goes here_
+### Packages used
+```{r}
+# Libraries
+library(dplyr)
+library(ggplot2)
+```
 
-Add pics here!
+
+### Cleaning data and extracting information
+```{r}
+# Read in file
+dler <- read.csv("dler_cleaning.csv")
+
+# Review data (purposely removing potentially sensitive data)
+# unique(dler$Project.Number)
+# dler %>% summarise_all(n_distinct)
+# colnames(dler)
+
+# Extracting only the data I need to show for project:
+# Create new Department names
+new_dept <- paste0("Dept_", c(LETTERS, sapply(LETTERS, function(x)
+  paste0("A", x)))[1:27])
+
+# List old Department names
+old_dept <- unique(dler$Project.Number)
+
+# Swap new for old names
+name_mapping <- setNames(new_dept, old_dept)
+dler_dept <- dler %>%
+  mutate(Dept = recode(Project.Number, !!!name_mapping))
+
+# Changing a column name with dplyr, extracting only the columns I need
+# and removing the other dataset
+dept_oblType <- dler_dept %>%
+  rename(obl = Ob.Amount..Cumulative.) %>%  # Rename columns
+  select(Dept, obl_type, obl)  # Select only the renamed columns
+
+# Keeping this file to turn in
+write.csv(dept_oblType, "dept_oblType.csv")
+
+# Extrcting the sum of transactions by type and Department:
+sum_dept_obl <- dler_dept %>%  # Pipe the data frame to dplyr verbs
+  group_by(Dept, obl_type) %>%  # Group by Dept and obl_type
+  summarize(sum_obl = sum(Ob.Amount..Cumulative.)) 
+
+# Keeping this file to turn in
+write.csv(sum_dept_obl, "sum_dept_obl.csv")
+
+```
+
+
+### Creating and saving plots
+```{r}
+# Creating a plot that counts the number of transactions for each Department and transaction type
+p_type_count <- ggplot (data = dept_oblType, mapping = aes(x = Dept, fill = obl_type)) +
+  geom_bar () +
+  labs(fill = "") +
+  coord_flip() +
+  scale_fill_brewer(palette = "Set3") +
+  theme_minimal() +
+  labs(title = "Number of Transactions, by Type, by Department", x = "Department", y = "") +
+  theme(
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold"),
+    plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+    legend.position = "bottom"
+  )
+
+
+# Creating a plot that shows the sum of transactions within each Department for every transaction type
+p_type_sum <- ggplot(data = sum_dept_obl,
+                   mapping = aes(x = factor(Dept), y = sum_obl, fill = obl_type)) +
+  geom_bar(stat = "identity") +
+  labs(fill = "") +
+  coord_flip() +
+  scale_fill_brewer(palette = "Set3") +
+  theme_minimal() +
+  scale_y_continuous(limits = c(0, 2000000),
+                     labels = scales::dollar_format()) +
+  labs(title = "Sum of Dollar Amounts, by Type, by Department", x = "Department", y = "") +
+  theme(
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold"),
+    plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+    legend.position = "bottom"
+  )
+
+
+# Show and save plots
+p_type_count
+ggsave("p_type_count.png")
+
+p_type_sum
+ggsave("p_type_sum.png")
+
+```
