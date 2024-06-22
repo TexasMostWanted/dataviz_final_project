@@ -10,13 +10,10 @@ The following is a sample of products created during the _"Data Visualization an
 
 ## Project 01
 
-In the `project_01/` folder you can find... _[Actual data I am currently working with. I was able to create visualizations of how our commands budget is spent (number of transactions and dollar amount, both by transaction type)]_
+In the `project_01/` folder you can find actual data I am currently working with. I was able to create visualizations of how our commands budget is spent (number of transactions and dollar amount, both by transaction type).
 
 **Sample data visualization:** 
-
-_[include your favorite visualization from this project here]_
-<img src="https://github.com/dataviz_final_project/blob/main/figures/p_type_count.png" width="70%" height="70%">
-<img src="https://github.com/dataviz_final_project/blob/main/figures/p_type_sum.png" width="70%" height="70%">
+<img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/p_type_count.png" width="70%" height="70%">
 
 
 ## Project 02
