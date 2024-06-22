@@ -16,6 +16,7 @@ In the `project_01/` folder you can find actual data I am currently working with
 
 <img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/p_type_count.png" width="70%" height="70%">
 
+<img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/p_type_sum.png" width="70%" height="70%">
 
 ## Project 02
 
