@@ -24,7 +24,9 @@ In this project, I created a choropleth from a tiger/line shapefile and individu
 
 **Sample data visualization:** 
 
+
 <img src="https://github.com/TexasMostWanted/dataviz_final_project/blob/main/figures/Texas_AGI_growth.gif" width="80%" height="80%">
+
 
 ## Project 03
 
